@@ -8,4 +8,4 @@ def my_collect(collection)
   new_collection
 end
 
-my_collection(['ruby', 'javascript", 'python', 'objective-c']) do { |lang| lang.upcase }
+my_collection(['ruby', 'javascript", 'python', 'objective-c']) { |lang| lang.upcase }
